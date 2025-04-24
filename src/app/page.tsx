@@ -1,3 +1,5 @@
+'use client';
+
 import React from 'react';
 import TripPosting from '@/components/TripPosting';
 import DeliveryRequest from '@/components/DeliveryRequest';
@@ -28,3 +30,4 @@ export default function Home() {
     </div>
   );
 }
+

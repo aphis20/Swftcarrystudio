@@ -102,7 +102,7 @@ body {
 }
 
 .swiftcarry-input {
-  @apply shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus-visible:outline-none focus-visible:shadow-outline-focus;
+  @apply shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2;
 }
 
 /* Example usage for text color */
@@ -113,5 +113,6 @@ body {
 .bg-secondary {
   background-color: hsl(var(--secondary));
 }
+
 
 
